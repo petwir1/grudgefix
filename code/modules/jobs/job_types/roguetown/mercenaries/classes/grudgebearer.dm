@@ -130,7 +130,7 @@
 	equip_delay_other = 4 SECONDS
 	strip_delay = 12 SECONDS
 	smelt_bar_num = 4
-	max_integrity = 1000	//They have their own unique integrity
+	max_integrity = 800	//They have their own unique integrity
 
 /* /obj/item/clothing/suit/roguetown/armor/plate/full/dwarven/ComponentInitialize()
 	. = ..()
@@ -150,7 +150,7 @@
 	block2add = FOV_BEHIND
 	bloody_icon = 'icons/effects/blood64.dmi'
 	smeltresult = /obj/item/ingot/steel
-	max_integrity = 1000
+	max_integrity = 800
 	experimental_inhand = FALSE
 	experimental_onhip = FALSE
 
@@ -168,7 +168,7 @@
 	icon_state = "dwarfhand"
 	item_state = "dwarfhand"
 	armor = ARMOR_GRUDGEBEARER
-	max_integrity = 1000
+	max_integrity = 800
 
 /* /obj/item/clothing/gloves/roguetown/plate/dwarven/ComponentInitialize()
 	. = ..()
@@ -184,7 +184,7 @@
 	icon_state = "dwarfshoe"
 	item_state = "dwarfshoe"
 	armor = ARMOR_GRUDGEBEARER
-	max_integrity = 1000
+	max_integrity = 800
 
 /* /obj/item/clothing/shoes/roguetown/boots/armor/dwarven/ComponentInitialize()
 	. = ..()
