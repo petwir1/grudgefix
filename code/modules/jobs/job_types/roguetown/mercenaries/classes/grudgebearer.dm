@@ -130,7 +130,7 @@
 	equip_delay_other = 4 SECONDS
 	strip_delay = 12 SECONDS
 	smelt_bar_num = 4
-	max_integrity = 800	//They have their own unique integrity
+	max_integrity = 800
 
 /* /obj/item/clothing/suit/roguetown/armor/plate/full/dwarven/ComponentInitialize()
 	. = ..()
