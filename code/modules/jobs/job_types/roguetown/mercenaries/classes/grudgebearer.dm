@@ -109,7 +109,7 @@
 		var/wepchoice = input("Choose your weapon", "Available weapons") as anything in weapons
 		switch(wepchoice)
 			if("Axe")
-				backr = /obj/item/rogueweapon/stoneaxe/battle
+				backr = /obj/item/rogueweapon/greataxe/steel
 			if("Mace")
 				backr = /obj/item/rogueweapon/mace/goden/steel
 
@@ -132,9 +132,9 @@
 	smelt_bar_num = 4
 	max_integrity = 1000	//They have their own unique integrity
 
-/obj/item/clothing/suit/roguetown/armor/plate/full/dwarven/ComponentInitialize()
+/* /obj/item/clothing/suit/roguetown/armor/plate/full/dwarven/ComponentInitialize()
 	. = ..()
-	AddComponent(/datum/component/layeredarmor/grudgebearer)
+	AddComponent(/datum/component/layeredarmor/grudgebearer) */
 
 /obj/item/clothing/head/roguetown/helmet/heavy/dwarven
 	name = "grudgebearer dwarven helm"
@@ -154,9 +154,9 @@
 	experimental_inhand = FALSE
 	experimental_onhip = FALSE
 
-/obj/item/clothing/head/roguetown/helmet/heavy/dwarven/ComponentInitialize()
+/* /obj/item/clothing/head/roguetown/helmet/heavy/dwarven/ComponentInitialize()
 	. = ..()
-	AddComponent(/datum/component/layeredarmor/grudgebearer/helmet)
+	AddComponent(/datum/component/layeredarmor/grudgebearer/helmet) */
 
 /obj/item/clothing/gloves/roguetown/plate/dwarven
 	name = "grudgebearer dwarven gauntlets"
@@ -170,9 +170,9 @@
 	armor = ARMOR_GRUDGEBEARER
 	max_integrity = 1000
 
-/obj/item/clothing/gloves/roguetown/plate/dwarven/ComponentInitialize()
+/* /obj/item/clothing/gloves/roguetown/plate/dwarven/ComponentInitialize()
 	. = ..()
-	AddComponent(/datum/component/layeredarmor/grudgebearer/limbs)
+	AddComponent(/datum/component/layeredarmor/grudgebearer/limbs) */
 
 /obj/item/clothing/shoes/roguetown/boots/armor/dwarven
 	name = "grudgebearer dwarven boots"
@@ -186,7 +186,7 @@
 	armor = ARMOR_GRUDGEBEARER
 	max_integrity = 1000
 
-/obj/item/clothing/shoes/roguetown/boots/armor/dwarven/ComponentInitialize()
+/* /obj/item/clothing/shoes/roguetown/boots/armor/dwarven/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/layeredarmor/grudgebearer/limbs)
 
@@ -271,4 +271,4 @@
 	)
 
 	shred_amt = 20	//Limbs lose 2 grades per layer shred, but also repair 4.
-	layer_repair = 2
+	layer_repair = 2 */
